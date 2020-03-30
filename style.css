@@ -7,3 +7,8 @@ Author URI:
 Template:       veganos
 Version:        0.1.0
 */
+
+.site-branding .custom-logo {
+    max-width: 100%;
+    width: 280px;
+}
