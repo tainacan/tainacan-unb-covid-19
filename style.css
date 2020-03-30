@@ -8,7 +8,39 @@ Template:       veganos
 Version:        0.1.0
 */
 
+/* Header Logo Image*/
 .site-branding .custom-logo {
     max-width: 100%;
     width: 280px;
+}
+
+/* Page titles and menu items are a bit smaller than parent theme */
+.front-page-content-area .entry-title {
+	font-size: 60.8px;
+    font-size: 3.8rem;
+}
+@media screen and ( max-width: 960px ) {
+    .front-page-content-area .entry-title {
+        font-size: 44.8px;
+		font-size: 2.8rem;
+    }
+}
+@media screen and (max-width: 700px) {
+	.front-page-content-area .entry-title {
+		font-size: 22px;
+		font-size: 1.8rem;
+    }
+}
+.main-navigation ul {
+    font-size: 1rem;
+}
+@media screen and (min-width: 60em) {
+    .main-navigation li {
+        padding: 10px 0.75em;
+    }
+}
+
+/* Tainacan related */
+.theme-items-list {
+    width: 100% !important;
 }
