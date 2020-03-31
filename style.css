@@ -14,6 +14,11 @@ Version:        0.1.0
     width: 280px;
 }
 
+/* Hero Image is always set via background image */
+.hero > img {
+	display: none !important;
+}
+
 /* Page titles and menu items are a bit smaller than parent theme */
 .front-page-content-area .entry-title {
 	font-size: 60.8px;
