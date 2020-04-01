@@ -149,3 +149,6 @@ textarea {
 .list-radio-wrap .nf-field-element ul li {
 	break-inside: avoid;
 }
+.alignfull, .wp-block-cover-image {
+	width: calc(100vw - 0.5rem);
+}
