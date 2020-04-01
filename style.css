@@ -37,7 +37,7 @@ Version:        0.1.0
     }
 }
 .main-navigation ul {
-    font-size: 1rem;
+    font-size: 0.875rem;
 }
 @media screen and (min-width: 60em) {
     .main-navigation li {
