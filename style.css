@@ -49,8 +49,8 @@ Version:        0.1.0
 .wrap,
 .post-type-archive-bigcommerce_product #content,
 .tax-bigcommerce_category #content {
-    max-width: 1000px;
-    max-width: calc( 1000px - 1em );
+    max-width: 980px;
+    max-width: calc( 980px - 1em );
 }
 
 /* Post and page headers are also smaller */
