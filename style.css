@@ -118,3 +118,34 @@ Version:        0.1.0
 .theme-items-list {
     width: 100% !important;
 }
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+	border: 1px solid #dbdbdb;
+}
+
+.list-checkbox-wrap .nf-field-element ul,
+.list-image-wrap .nf-field-element ul,
+.list-radio-wrap .nf-field-element ul {
+	column-count: 2;
+	break-inside: avoid;
+}
+.list-checkbox-wrap .nf-field-element ul li,
+.list-image-wrap .nf-field-element ul li,
+.list-radio-wrap .nf-field-element ul li {
+	break-inside: avoid;
+}
