@@ -149,6 +149,31 @@ Version:        0.1.0
 	border: 1px solid #efefef;
 }
 
+.theme-items-list input.input,
+.theme-items-list .input,
+.theme-items-list textarea.textarea,
+.theme-items-list .textarea,
+.theme-items-list input[type="color"].input,
+.theme-items-list input[type="date"].input,
+.theme-items-list input[type="datetime-local"].input,
+.theme-items-list input[type="datetime"].input,
+.theme-items-list input[type="email"].input,
+.theme-items-list input[type="number"].input,
+.theme-items-list input[type="month"].input,
+.theme-items-list input[type="password"].input,
+.theme-items-list input[type="search"].input,
+.theme-items-list input[type="tel"].input,
+.theme-items-list input[type="text"].input,
+.theme-items-list input[type="time"].input,
+.theme-items-list input[type="url"].input,
+.theme-items-list input[type="week"].input,
+.theme-items-list .select,
+.theme-items-list select,
+.theme-items-list .tainacan-form .dropdown .button,
+.theme-items-list .dropdown .dropdown-menu {
+	border-radius: 3px !important;
+}
+
 .archive-items-header {
 	padding: 0 var(--tainacan-one-column, 4.16667%) !important;
 }
