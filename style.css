@@ -119,6 +119,59 @@ Version:        0.1.0
     width: 100% !important;
 }
 
+.single .tainacan-entry-content {
+	max-width: 100%;
+	width: 100%;
+}
+.single .single-item-collection--thumbnail {
+	float: right;
+}
+.single .single-item-collection--thumbnail img {
+	margin: 0.5rem 0 0.5rem 0.5rem;
+	max-width: 200px;
+	border-bottom: 5px solid ;
+}
+.single .entry-meta.entry-meta-thumbnail-aside {
+	padding-right: 214px;
+}
+.single .title-content-items {
+	font-size: 2rem;
+	color: #333;
+}
+.single .tainacan-entry-content .tainacan-metadata-list {
+	column-count: 2;
+	column-gap: 2rem;
+}
+.single .tainacan-entry-content .tainacan-metadata-list>div {
+	break-inside: avoid;
+}
+.single .tainacan-entry-content .tainacan-metadata-list>div h3 {
+	break-inside: avoid;
+	font-size: 1.125rem;
+	margin-bottom: 0.5rem;
+	color: #333;
+}
+.single .tainacan-entry-content .single-item-collection--document a {
+	border-bottom: none !important;
+}
+.single .tainacan-entry-content .single-item-collection--attachments {
+	display: flex;
+	flex-wrap: wrap;
+}
+.single .tainacan-entry-content .single-item-collection--attachments .single-item-collection--attachments-file {
+	flex-basis: 33%;
+	padding: 2rem;
+}
+.single .tainacan-entry-content .single-item-collection--attachments .single-item-collection--attachments-file a {
+	border-bottom: none !important;
+}
+
+.multivalue-separator {
+	margin: 0 8px;
+	color: #cbcbcb;
+}
+
+/* Ninja Forms related */
 input[type="text"],
 input[type="email"],
 input[type="url"],
