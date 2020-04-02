@@ -119,6 +119,9 @@ Version:        0.1.0
 	--tainacan-item-background-color: #fbfbfb !important;
 	--tainacan-item-hover-background-color: white !important;
 	--tainacan-item-heading-hover-background-color: #fcfcfc !important;
+	--tainacan-font-family: "Poppins", "Helvetica Neue", helvetica, arial, sans-serif !important;
+	--tainacan-primary: #cde9da !important;
+	--tainacan-secondary: #008940 !important;
 }
 .theme-items-list {
     width: 100% !important;
@@ -153,6 +156,7 @@ Version:        0.1.0
 .single-item-collection--thumbnail img {
 	margin: 0.5rem 0 0.5rem 0.5rem;
 	max-width: 200px;
+	border-radius: 3px;
 }
 .entry-meta.entry-meta-thumbnail-aside {
 	padding-right: 214px;
