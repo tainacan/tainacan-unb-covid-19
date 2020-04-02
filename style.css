@@ -164,7 +164,9 @@ Version:        0.1.0
 .theme-items-list .tainacan-record {
 	border: 1px solid #efefef;
 }
-
+.theme-items-list .tainacan-cards-container .tainacan-card .media .list-metadata p.metadata-description {
+	line-height: 1.2rem;
+}
 .theme-items-list input.input,
 .theme-items-list .input,
 .theme-items-list textarea.textarea,
