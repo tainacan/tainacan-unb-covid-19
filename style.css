@@ -227,6 +227,7 @@ Version:        0.1.0
 	margin: 0.5rem 0 0 0.5rem;
 	max-width: 200px;
 	border-radius: 3px;
+	border: 1px solid #efefef;
 }
 .entry-meta.entry-meta-thumbnail-aside {
 	padding-right: 214px;
@@ -269,9 +270,11 @@ Version:        0.1.0
 .single .tainacan-entry-content .single-item-collection--document a {
 	border-bottom: none !important;
 }
+.single .tainacan-entry-content .single-item-collection--document iframe, 
 .single .tainacan-entry-content .single-item-collection--document a>img, 
 .single .tainacan-entry-content .single-item-collection--attachments .single-item-collection--attachments-file a>img {
 	border-radius: 3px;
+	border: none;
 }
 .single .tainacan-entry-content .single-item-collection--attachments {
 	display: flex;
