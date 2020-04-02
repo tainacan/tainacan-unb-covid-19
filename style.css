@@ -209,6 +209,15 @@ Version:        0.1.0
 .archive-items-header {
 	padding: 0 var(--tainacan-one-column, 4.16667%) !important;
 }
+.archive-items-header .entry-title {
+	margin-bottom: 1rem;
+}
+.archive-items-header .entry-description {
+	margin-bottom: 1.125rem;
+}
+.archive-items-header .entry-description.entry-description-thumbnail-aside {
+	padding-right: 214px;
+}
 .single-item-collection--thumbnail {
 	float: right;
 }
@@ -220,11 +229,12 @@ Version:        0.1.0
 .entry-meta.entry-meta-thumbnail-aside {
 	padding-right: 214px;
 }
-@media screen and (max-width: 700px) {
-	.single .single-item-collection--thumbnail {
+@media screen and (max-width: 700px) { 
+	.single-item-collection--thumbnail {
 		float: none;
 	}
-	.single .entry-meta.entry-meta-thumbnail-aside {
+	.archive-items-header .entry-description.entry-description-thumbnail-aside,
+	.entry-meta.entry-meta-thumbnail-aside {
 		padding-right: 0px;
 	}
 }

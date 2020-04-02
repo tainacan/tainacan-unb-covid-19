@@ -22,6 +22,16 @@
 			</div>
 		<?php endif; ?>
 	</h1> 
+	<?php $tainacan_term_description = tainacan_get_the_term_description(); ?>
+	<?php if ( ! empty( $tainacan_term_description )) : ?>
+		<?php if ($src): ?>
+			<div class="entry-description entry-description-thumbnail-aside">
+		<?php else: ?>
+			<div class="entry-description">
+		<?php endif; ?>
+			<?php echo $tainacan_term_description; ?>
+		</div>
+	<?php endif; ?> 
 	<?php if ($src): ?>
 		<div class="entry-meta entry-meta-thumbnail-aside">
 	<?php else: ?>
