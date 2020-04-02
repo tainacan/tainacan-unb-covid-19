@@ -113,6 +113,9 @@ Version:        0.1.0
     font-size: 22px;
     line-height: 1.5;
 }
+body .ab-block-post-grid {
+	margin: 48px 0 1.2em 0;
+}
 a,
 a:hover {
 	text-decoration: none !important;
