@@ -133,6 +133,9 @@ Version:        0.1.0
 .theme-items-list .search-control {
 	border-bottom: 1px solid #efefef;
 }
+.theme-items-list .search-control .search-control-item .button {
+	letter-spacing: 0.1px;
+}
 .theme-items-list .above-search-control .table-container {
 	padding-top: 1.875em;
 }
@@ -150,7 +153,7 @@ Version:        0.1.0
 .theme-items-list .tainacan-masonry-item:hover,
 .theme-items-list .tainacan-card:hover,
 .theme-items-list .tainacan-record:hover {
-	box-shadow: 0 2px 14px -10px #000;
+	box-shadow: 0 2px 14px -12px #000;
 }
 .theme-items-list .tainacan-masonry-item .metadata-title {
 	border: 1px solid #efefef;
@@ -187,7 +190,13 @@ Version:        0.1.0
 	border-radius: 3px !important;
 }
 .theme-items-list .dropdown .dropdown-menu .dropdown-content {
-	box-shadow: 0 1px 12px -9px #000;
+	box-shadow: 0 1px 12px -11px #000;
+}
+.theme-items-list .tainacan-form .b-numberinput button.is-primary,
+.theme-items-list .tainacan-form .b-numberinput button.is-primary:hover,
+.theme-items-list .tainacan-form .b-numberinput button.is-primary:focus,
+.theme-items-list .tainacan-form .b-numberinput button.is-primary:active {
+	background-color: var(--tainacan-input-background-color) !important;
 }
 .theme-items-list .metadata-alert {
 	border-radius: 22px !important;
