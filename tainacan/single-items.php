@@ -23,7 +23,7 @@
                             <?php else: ?>
                                 <div class="entry-meta">
                             <?php endif; ?>
-                                <a href="javascript:history.go(-1)">Voltar à coleção<object data="" type=""></object></a>
+                                <a href="javascript:history.go(-1)">Voltar<object data="" type=""></object></a>
                                 <span class="multivalue-separator">|</span>
                                 <?php if(function_exists('tainacan_the_item_edit_link')) {
                                     tainacan_the_item_edit_link(null, '');

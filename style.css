@@ -119,19 +119,17 @@ Version:        0.1.0
     width: 100% !important;
 }
 
-.single .tainacan-entry-content {
-	max-width: 100%;
-	width: 100%;
+.archive-items-header {
+	padding: 0 var(--tainacan-one-column, 4.16667%) !important;
 }
-.single .single-item-collection--thumbnail {
+.single-item-collection--thumbnail {
 	float: right;
 }
-.single .single-item-collection--thumbnail img {
+.single-item-collection--thumbnail img {
 	margin: 0.5rem 0 0.5rem 0.5rem;
 	max-width: 200px;
-	border-bottom: 5px solid ;
 }
-.single .entry-meta.entry-meta-thumbnail-aside {
+.entry-meta.entry-meta-thumbnail-aside {
 	padding-right: 214px;
 }
 @media screen and (max-width: 700px) {
@@ -141,6 +139,11 @@ Version:        0.1.0
 	.single .entry-meta.entry-meta-thumbnail-aside {
 		padding-right: 0px;
 	}
+}
+
+.single .tainacan-entry-content {
+	max-width: 100%;
+	width: 100%;
 }
 .single .title-content-items {
 	font-size: 2rem;
