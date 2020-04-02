@@ -115,10 +115,35 @@ Version:        0.1.0
 }
 
 /* Tainacan related */
+:root {
+	--tainacan-item-background-color: #fbfbfb !important;
+	--tainacan-item-hover-background-color: white !important;
+	--tainacan-item-heading-hover-background-color: #fcfcfc !important;
+}
 .theme-items-list {
     width: 100% !important;
 }
-
+.theme-items-list .tainacan-masonry-item,
+.theme-items-list .tainacan-card, 
+.theme-items-list .tainacan-record  {
+	border-radius: 0px 0px 225px 15px/15px 225px 15px 255px;
+	overflow: hidden;
+	transition: background-color 0.4s ease, border-radius 0.3s ease !important;
+}
+.theme-items-list .tainacan-masonry-item:hover,
+.theme-items-list .tainacan-card:hover,
+.theme-items-list .tainacan-record:hover {
+	border-radius: 0;
+}
+.theme-items-list .tainacan-masonry-item .metadata-title {
+	border: 1px solid #efefef;
+	margin: 0 !important;
+	border-bottom: none;
+}
+.theme-items-list .tainacan-card,
+.theme-items-list .tainacan-record {
+	border: 1px solid #efefef;
+}
 .archive-items-header {
 	padding: 0 var(--tainacan-one-column, 4.16667%) !important;
 }
