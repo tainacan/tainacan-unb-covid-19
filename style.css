@@ -134,6 +134,14 @@ Version:        0.1.0
 .single .entry-meta.entry-meta-thumbnail-aside {
 	padding-right: 214px;
 }
+@media screen and (max-width: 700px) {
+	.single .single-item-collection--thumbnail {
+		float: none;
+	}
+	.single .entry-meta.entry-meta-thumbnail-aside {
+		padding-right: 0px;
+	}
+}
 .single .title-content-items {
 	font-size: 2rem;
 	color: #333;
