@@ -116,6 +116,10 @@ Version:        0.1.0
 
 /* Tainacan related */
 :root {
+	--tainacan-yellow1: #fdf6d7 !important;
+	--tainacan-input-color: #454647 !important;
+	--tainacan-input-border-color: #f2f2f2 !important;
+	--tainacan-input-background-color: #fbfbfb !important;
 	--tainacan-item-background-color: #fbfbfb !important;
 	--tainacan-item-hover-background-color: white !important;
 	--tainacan-item-heading-hover-background-color: #fcfcfc !important;
@@ -125,6 +129,15 @@ Version:        0.1.0
 }
 .theme-items-list {
     width: 100% !important;
+}
+.theme-items-list .search-control {
+	border-bottom: 1px solid #efefef;
+}
+.theme-items-list .above-search-control .table-container {
+	padding-top: 1.875em;
+}
+.theme-items-list .button {
+	padding: 14px !important;
 }
 .theme-items-list .tainacan-masonry-item,
 .theme-items-list .tainacan-card, 
@@ -170,8 +183,18 @@ Version:        0.1.0
 .theme-items-list .select,
 .theme-items-list select,
 .theme-items-list .tainacan-form .dropdown .button,
-.theme-items-list .dropdown .dropdown-menu {
+.theme-items-list .dropdown .dropdown-menu .dropdown-content {
 	border-radius: 3px !important;
+}
+.theme-items-list .dropdown .dropdown-menu .dropdown-content {
+	box-shadow: 0 1px 12px -9px #000;
+}
+.theme-items-list .metadata-alert {
+	border-radius: 22px !important;
+	padding: 10px 16px !important;
+}
+.theme-items-list #filters-modal {
+	border-right: 1px solid #efefef;
 }
 
 .archive-items-header {
@@ -181,7 +204,7 @@ Version:        0.1.0
 	float: right;
 }
 .single-item-collection--thumbnail img {
-	margin: 0.5rem 0 0.5rem 0.5rem;
+	margin: 0.5rem 0 0 0.5rem;
 	max-width: 200px;
 	border-radius: 3px;
 }
@@ -196,6 +219,10 @@ Version:        0.1.0
 		padding-right: 0px;
 	}
 }
+.slide-title-area .play-button .circular-counter {
+    right: calc(var(--tainacan-one-column) + 10px) !important;
+    top: 6px !important;
+} 
 
 .single .tainacan-entry-content {
 	max-width: 100%;
@@ -220,6 +247,10 @@ Version:        0.1.0
 }
 .single .tainacan-entry-content .single-item-collection--document a {
 	border-bottom: none !important;
+}
+.single .tainacan-entry-content .single-item-collection--document a>img, 
+.single .tainacan-entry-content .single-item-collection--attachments .single-item-collection--attachments-file a>img {
+	border-radius: 3px;
 }
 .single .tainacan-entry-content .single-item-collection--attachments {
 	display: flex;
