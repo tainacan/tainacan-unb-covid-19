@@ -14,11 +14,9 @@
 			<?php echo $current_taxonomy->labels->name . ':'; ?>
 		</span>
 		<?php tainacan_the_term_name(); ?>
-		<?php if ($src) : 
-			$thumbnail_id = get_post_thumbnail_id( $post->ID );
-			$alt = get_post_meta($thumbnail_id, '_wp_attachment_image_alt', true); ?>
+		<?php if ($src && $src[0]) : ?>
 			<div class="single-item-collection--thumbnail">
-				<img src="<?php echo get_the_post_thumbnail_url( tainacan_get_collection_id() ); ?>" class="t-collection--info-img rounded-circle img-fluid border border-white position-absolute text-left" alt="<?php echo esc_attr($alt); ?>">
+				<img src="<?php echo($src[0]) ?>" alt="Imagem do termo">
 			</div>
 		<?php endif; ?>
 	</h1> 
