@@ -369,11 +369,26 @@ textarea {
 
 /* One Click Accessiblity plugin */
 .pojo-a11y-toolbar-right .pojo-a11y-toolbar-link.pojo-a11y-toolbar-toggle-link {
-	font-size: 170% !important;
+	font-size: 118% !important;
 	border-radius: 26px 0px 0px 26px;
 }
 
 .pojo-a11y-toolbar-left .pojo-a11y-toolbar-link.pojo-a11y-toolbar-toggle-link {
-	font-size: 170% !important;
+	font-size: 118% !important;
 	border-radius: 0px 26px 26px 0px;
+}
+
+/* V-Libras plugin */
+div[vw].enabled {
+	margin-top: 0;
+	top: 55px;
+}
+div[vw].enabled>.active img {
+	background-color: #004b97;
+	border-radius: 26px 0px 0px 26px;
+}
+@media screen and (max-width: 700px) {
+	div[vw].enabled {
+		top: 134px;
+	}
 }
