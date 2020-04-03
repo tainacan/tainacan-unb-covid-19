@@ -7,7 +7,7 @@
 	$image =  $current_term->get_header_image_id();
 	$src = wp_get_attachment_image_src($image, 'full');
 ?>
-<br><br>
+
 <header class="entry-header archive-items-header">  
 	<h1 class="entry-title">
 		<span style="font-weight: normal;">

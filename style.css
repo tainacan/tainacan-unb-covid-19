@@ -42,12 +42,12 @@ Version:        0.1.0
 @media screen and (min-width: 60em) {
     .main-navigation li {
         padding: 10px 0.75em;
-    }
-}
-
-/* Archive pages do not have a top padding nor image */
-.archive .site-content {
-	padding-top: 0px;
+	}
+	
+	/* Archive pages do not have a top padding nor image */
+	.archive .front-page-content-area{
+		margin-top: -2.5em;
+	}
 }
 
 .custom-header {
@@ -252,7 +252,10 @@ a:hover {
 	border: 3px solid #efefef;
 }
 
-@media screen and (max-width: 700px) { 
+@media screen and (max-width: 700px) {
+	.archive-items-header {
+		text-align: center;
+	} 
 	.single-item-collection--thumbnail {
 		float: none;
 	}
@@ -314,6 +317,7 @@ a:hover {
 	border-bottom: none;
 	position: relative;
 	margin-top: 1px;
+	text-align: left;
 }
 @media screen and (min-width: 60em) {	
 	.entry-meta.entry-meta-header-above {
