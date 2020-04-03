@@ -368,12 +368,12 @@ textarea {
 }
 
 /* One Click Accessiblity plugin */
-.pojo-a11y-toolbar-left .pojo-a11y-toolbar-link.pojo-a11y-toolbar-toggle-link {
-	font-size: 180%;
+.pojo-a11y-toolbar-right .pojo-a11y-toolbar-link.pojo-a11y-toolbar-toggle-link {
+	font-size: 170% !important;
 	border-radius: 26px 0px 0px 26px;
 }
 
-.pojo-a11y-toolbar-right .pojo-a11y-toolbar-link.pojo-a11y-toolbar-toggle-link {
-	font-size: 180%;
+.pojo-a11y-toolbar-left .pojo-a11y-toolbar-link.pojo-a11y-toolbar-toggle-link {
+	font-size: 170% !important;
 	border-radius: 0px 26px 26px 0px;
 }
