@@ -21,8 +21,8 @@ Version:        0.1.0
 
 /* Page titles and menu items are a bit smaller than parent theme */
 .front-page-content-area .entry-title {
-	font-size: 60.8px;
-    font-size: 3.8rem;
+	font-size: 51px;
+    font-size: 3.5rem;
 }
 @media screen and ( max-width: 960px ) {
     .front-page-content-area .entry-title {
@@ -43,6 +43,15 @@ Version:        0.1.0
     .main-navigation li {
         padding: 10px 0.75em;
     }
+}
+
+/* Archive pages do not have a top padding nor image */
+.archive .site-content {
+	padding-top: 0px;
+}
+
+.archive .custom-header {
+	display: none;
 }
 
 /* Page container is not that wide */
@@ -135,7 +144,8 @@ a:hover {
 	--tainacan-secondary: #008940 !important;
 }
 .theme-items-list {
-    width: 100% !important;
+	width: 100% !important;
+	margin-top: 24px;
 }
 .theme-items-list .search-control {
 	border-bottom: 1px solid #efefef;
@@ -232,21 +242,22 @@ a:hover {
 }
 .single-item-collection--thumbnail img {
 	margin: 0.5rem 0 0 0.5rem;
-	max-width: 200px;
-	border-radius: 3px;
-	border: 1px solid #efefef;
+	max-width: 160px;
+	border-radius: 160px;
+	border: 3px solid #efefef;
 }
-.entry-meta.entry-meta-thumbnail-aside {
-	padding-right: 214px;
-}
+
 @media screen and (max-width: 700px) { 
 	.single-item-collection--thumbnail {
 		float: none;
 	}
-	.archive-items-header .entry-description.entry-description-thumbnail-aside,
-	.entry-meta.entry-meta-thumbnail-aside {
+	.archive-items-header .entry-description.entry-description-thumbnail-aside {
 		padding-right: 0px;
 	}
+}
+.entry-meta .item-card-link--sharing img {
+	max-width: 25px;
+	margin-bottom: -7px;
 }
 .slide-title-area .play-button .circular-counter {
     right: calc(var(--tainacan-one-column) + 10px) !important;
@@ -294,7 +305,16 @@ a:hover {
 .single .tainacan-entry-content .single-item-collection--attachments .single-item-collection--attachments-file a {
 	border-bottom: none !important;
 }
-
+.entry-meta.entry-meta-header-above {
+	border-bottom: none;
+	position: relative;
+	margin-top: 1px;
+}
+@media screen and (min-width: 60em) {	
+	.entry-meta.entry-meta-header-above {
+		margin-top: -25px;
+	}
+}
 .multivalue-separator {
 	margin: 0 8px;
 	color: #cbcbcb;
