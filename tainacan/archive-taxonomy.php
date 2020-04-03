@@ -7,7 +7,7 @@
 	$image =  $current_term->get_header_image_id();
 	$src = wp_get_attachment_image_src($image, 'full');
 ?>
-
+<br><br>
 <header class="entry-header archive-items-header">  
 	<h1 class="entry-title">
 		<span style="font-weight: normal;">
@@ -37,20 +37,20 @@
 	<?php endif; ?>
 		<a href="javascript:history.go(-1)">Voltar<object data="" type=""></object></a>
 		<span class="multivalue-separator">|</span>
-
+		Compartilhar:&nbsp;
 		<?php if ( true == get_theme_mod( 'tainacan_facebook_share', true ) ) : ?> 
 			<a href="http://www.facebook.com/sharer.php?u=<?php echo get_term_link((int) $current_term->get_id()); ?>" class="item-card-link--sharing" target="_blank">
-				<img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/facebook-circle.png'; ?>" alt="Compartilhar no Facebook">
+				<img src="<?php echo esc_url( get_stylesheet_directory_uri() ) . '/assets/images/facebook-circle.png'; ?>" alt="Compartilhar no Facebook">
 			</a>
 		<?php endif; ?>
-		<span class="multivalue-separator">|</span>
+		&nbsp;
 		<?php if ( true == get_theme_mod( 'tainacan_twitter_share', true ) ) : ?> 
 			<?php
 			$twitter_option = get_theme_mod( 'tainacan_twitter_user' );
 			$via = ! empty( $twitter_option ) ? '&amp;via=' . esc_attr( get_theme_mod( 'tainacan_twitter_user' ) ) : '';
 			?>
 			<a href="http://twitter.com/share?url=<?php echo get_term_link((int) $current_term->get_id()); ?>&amp;text=<?php echo $current_taxonomy->labels->name . ':' . $current_term->get_name(); ?><?php echo $via; ?>" target="_blank" class="item-card-link--sharing">
-				<img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/twitter-circle.png'; ?>" alt="Compartilhar no Twitter">
+				<img src="<?php echo esc_url( get_stylesheet_directory_uri() ) . '/assets/images/twitter-circle.png'; ?>" alt="Compartilhar no Twitter">
 			</a>
 		<?php endif; ?>
 	</div>
