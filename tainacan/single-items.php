@@ -29,19 +29,20 @@
                                     tainacan_the_item_edit_link(null, '');
                                 } ?>
                                 <span class="multivalue-separator">|</span>
+                                Compartilhar:&nbsp;
                                 <?php if ( true == get_theme_mod( 'tainacan_facebook_share', true ) ) : ?> 
                                     <a href="http://www.facebook.com/sharer.php?u=<?php the_permalink(); ?>" class="item-card-link--sharing" target="_blank">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/facebook-circle.png'; ?>" alt="Compartilhar no Facebook">
+                                        <img src="<?php echo esc_url( get_stylesheet_directory_uri() ) . '/assets/images/facebook-circle.png'; ?>" alt="Compartilhar no Facebook">
                                     </a>
                                 <?php endif; ?>
-                                <span class="multivalue-separator">|</span>
+                                &nbsp;
                                 <?php if ( true == get_theme_mod( 'tainacan_twitter_share', true ) ) : ?> 
                                     <?php
                                     $twitter_option = get_theme_mod( 'tainacan_twitter_user' );
                                     $via = ! empty( $twitter_option ) ? '&amp;via=' . esc_attr( get_theme_mod( 'tainacan_twitter_user' ) ) : '';
                                     ?>
                                     <a href="http://twitter.com/share?url=<?php the_permalink(); ?>&amp;text=<?php the_title_attribute(); ?><?php echo $via; ?>" target="_blank" class="item-card-link--sharing">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/twitter-circle.png'; ?>" alt="Compartilhar no Twitter">
+                                        <img src="<?php echo esc_url( get_stylesheet_directory_uri() ) . '/assets/images/twitter-circle.png'; ?>" alt="Compartilhar no Twitter">
                                     </a>
                                 <?php endif; ?>
                             </div>

@@ -293,6 +293,9 @@ a:hover {
 	margin-bottom: 0.5rem;
 	color: #333;
 }
+.single .single-item-collection--document {
+	text-align: center;
+}
 .single .tainacan-entry-content .single-item-collection--document a {
 	border-bottom: none !important;
 }
