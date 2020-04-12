@@ -171,6 +171,8 @@ a:hover {
 	--tainacan-font-family: "Poppins", "Helvetica Neue", helvetica, arial, sans-serif !important;
 	--tainacan-primary: #cde9da !important;
 	--tainacan-secondary: #008940 !important;
+	--tainacan-block-gray3: #adabab !important;
+	--tainacan-block-primary: #008940 !important;
 }
 .theme-items-list {
 	width: 100% !important;
