@@ -279,8 +279,10 @@ a:hover {
 }
 .front-page-content-area .single-item-collection--thumbnail img {
 	max-width: 160px;
-	border-radius: 160px;
-	border: 3px solid #efefef;
+	/*border-radius: 160px;
+	border: 3px solid #efefef;*/
+	border: none;
+	border-radius: 0;
 }
 
 @media screen and (max-width: 700px) {
