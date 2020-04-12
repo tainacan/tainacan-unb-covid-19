@@ -130,6 +130,35 @@ a:hover {
 	text-decoration: none !important;
 }
 
+/* Home page customizations */
+.home .front-page-content-area {
+	display: none;
+}
+.home .header-top {
+	border-bottom: none;
+}
+.home .site-branding .custom-logo {
+    width: 480px;	
+}
+
+/* UGB blocks related */
+.ugb-notification.ugb-notification--v2.ugb-notification--design-basic .ugb-notification__item a, .ugb-notification.ugb-notification--v2.ugb-notification--design-large-icon .ugb-notification__item a {
+	color: inherit !important;
+	text-decoration: none !important;
+	border: none !important;
+}
+.ugb-card.ugb-card--v2 .ugb-card__content {
+	padding: 24px 28px;
+}
+.ugb-card.ugb-card--v2 .ugb-card__content a:not(.ugb-button) {
+	border-bottom: none;
+}
+
+/* Social Links */
+.wp-social-link {
+    width: auto;
+}
+
 /* Tainacan related */
 :root {
 	--tainacan-yellow1: #fdf6d7 !important;
