@@ -55,7 +55,7 @@ Version:        0.1.0
 }
 
 /* Page container is not that wide */
-.header-top .wrap {
+.header-top>.wrap {
     max-width: 1366px;
     max-width: calc( 1366px - 2em );
 }
