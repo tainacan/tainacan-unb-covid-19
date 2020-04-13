@@ -160,6 +160,10 @@ a:hover {
     width: auto;
 }
 
+/* Lists */
+.page .entry-content ul li {
+	padding-bottom: 0.5em;
+}
 /* Tainacan related */
 :root {
 	--tainacan-yellow1: #fdf6d7 !important;
