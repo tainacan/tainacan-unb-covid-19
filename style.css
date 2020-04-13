@@ -59,12 +59,6 @@ Version:        0.1.0
     max-width: 1366px;
     max-width: calc( 1366px - 2em );
 }
-.wrap,
-.post-type-archive-bigcommerce_product #content,
-.tax-bigcommerce_category #content {
-    max-width: 980px;
-    max-width: calc( 980px - 2em );
-}
 
 /* Post and page headers are also smaller */
 @media screen and (min-width: 30em) {
