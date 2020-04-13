@@ -147,12 +147,12 @@ a:hover {
 .ugb-notification.ugb-notification--v2.ugb-notification--design-large-icon .ugb-notification__item a {
 	color: inherit !important;
 	text-decoration: none !important;
-	border: 0px solid white !important;
+	border-bottom: 0px solid white !important;
 	transition: border 0.2s ease;
 }
 .ugb-notification.ugb-notification--v2.ugb-notification--design-basic .ugb-notification__item a:hover,
 .ugb-notification.ugb-notification--v2.ugb-notification--design-large-icon .ugb-notification__item a:hover {
-	border: 2px solid white !important;
+	border-bottom: 2px solid white !important;
 }
 .ugb-card.ugb-card--v2 .ugb-card__content {
 	padding: 24px 28px;
