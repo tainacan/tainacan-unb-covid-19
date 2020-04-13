@@ -55,11 +55,15 @@ Version:        0.1.0
 }
 
 /* Page container is not that wide */
+.header-top .wrap {
+    max-width: 1366px;
+    max-width: calc( 1366px - 2em );
+}
 .wrap,
 .post-type-archive-bigcommerce_product #content,
 .tax-bigcommerce_category #content {
     max-width: 980px;
-    max-width: calc( 980px - 1em );
+    max-width: calc( 980px - 2em );
 }
 
 /* Post and page headers are also smaller */
@@ -139,6 +143,9 @@ a:hover {
 }
 .home .site-branding .custom-logo {
     width: 480px;	
+}
+.site-branding .wrap {
+	padding: 0.2em 0;
 }
 
 /* UGB blocks related */
