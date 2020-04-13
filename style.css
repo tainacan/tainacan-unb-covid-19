@@ -146,13 +146,43 @@ a:hover {
 	padding: 0.2em 0;
 }
 
+/* Sub menu shadows */
+.main-navigation ul ul,
+.main-navigation ul ul ul ul,
+.main-navigation ul ul ul ul ul ul,
+.main-navigation ul ul ul ul ul ul ul ul,
+.main-navigation ul ul ul ul ul ul ul ul ul ul,
+.main-navigation ul ul ul a:hover,
+.main-navigation ul ul ul a:focus,
+.main-navigation ul ul ul li:hover,
+.main-navigation ul ul ul li:focus,
+.main-navigation ul ul ul ul ul a:hover,
+.main-navigation ul ul ul ul ul a:focus,
+.main-navigation ul ul ul ul ul li:hover,
+.main-navigation ul ul ul ul ul li:focus,
+.main-navigation ul ul ul ul ul ul ul a:hover,
+.main-navigation ul ul ul ul ul ul ul a:focus,
+.main-navigation ul ul ul ul ul ul ul li:hover,
+.main-navigation ul ul ul ul ul ul ul li:focus,
+.main-navigation ul ul ul ul ul ul ul ul ul a:hover,
+.main-navigation ul ul ul ul ul ul ul ul ul a:focus,
+.main-navigation ul ul ul ul ul ul ul ul ul li:hover,
+.main-navigation ul ul ul ul ul ul ul ul ul li:focus,
+.main-navigation ul ul ul ul ul ul ul ul ul ul ul a:hover,
+.main-navigation ul ul ul ul ul ul ul ul ul ul ul a:focus,
+.main-navigation ul ul ul ul ul ul ul ul ul ul ul li:hover,
+.main-navigation ul ul ul ul ul ul ul ul ul ul ul li:focus {
+    box-shadow: 0 2px 12px -8px black;
+    border-radius: 4px;
+}
+
 /* UGB blocks related */
 .ugb-notification.ugb-notification--v2.ugb-notification--design-basic .ugb-notification__item a,
 .ugb-notification.ugb-notification--v2.ugb-notification--design-large-icon .ugb-notification__item a {
 	color: inherit !important;
 	text-decoration: none !important;
 	border-bottom: 0px solid white !important;
-	transition: border 0.2s ease;
+	transition: border 0.1s ease;
 }
 .ugb-notification.ugb-notification--v2.ugb-notification--design-basic .ugb-notification__item a:hover,
 .ugb-notification.ugb-notification--v2.ugb-notification--design-large-icon .ugb-notification__item a:hover {
