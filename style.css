@@ -15,6 +15,11 @@ Version:        0.1.0
 }
 @font-face {
 	font-family: 'UnBPro';
+	src: url('./assets/fonts/UnB_Pro/UnB\ Pro_Regular.otf');
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'UnBPro';
 	src: url('./assets/fonts/UnB_Pro/UnB\ Pro_Italic.otf');
 	font-style: italic;
 }
