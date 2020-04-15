@@ -16,7 +16,12 @@ Version:        0.1.0
 @font-face {
 	font-family: 'UnBPro';
 	src: url('./assets/fonts/UnB_Pro/UnB\ Pro_Italic.otf');
-	font-style: italic, oblique;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'UnBPro';
+	src: url('./assets/fonts/UnB_Pro/UnB\ Pro_Italic.otf');
+	font-style: oblique;
 }
 @font-face {
 	font-family: 'UnBPro';
@@ -27,7 +32,13 @@ Version:        0.1.0
 	font-family: 'UnBPro';
 	src: url('./assets/fonts/UnB_Pro/UnB\ Pro_Bold\ Italic.otf');
 	font-weight: bold;
-	font-style: italic, oblique;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'UnBPro';
+	src: url('./assets/fonts/UnB_Pro/UnB\ Pro_Bold\ Italic.otf');
+	font-weight: bold;
+	font-style: oblique;
 }
 @font-face {
 	font-family: 'UnBPro';
