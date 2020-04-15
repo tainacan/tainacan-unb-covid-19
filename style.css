@@ -494,7 +494,7 @@ textarea {
 /* V-Libras plugin */
 div[vw].enabled {
 	margin-top: 0;
-	top: 75px;
+	top: 112px;
 }
 div[vw].enabled>.active img {
 	background-color: #004b97;
@@ -502,6 +502,6 @@ div[vw].enabled>.active img {
 }
 @media screen and (max-width: 700px) {
 	div[vw].enabled {
-		top: 134px;
+		top: 230px;
 	}
 }
