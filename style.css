@@ -8,6 +8,41 @@ Template:       veganos
 Version:        0.1.0
 */
 
+/* UnB font family */
+@font-face {
+	font-family: 'UnBPro';
+	src: url('./assets/fonts/UnB_Pro/UnB\ Pro_Italic.otf');
+}
+@font-face {
+	font-family: 'UnBPro';
+	src: url('./assets/fonts/UnB_Pro/UnB\ Pro_Regular.otf');
+	font-style: italic, oblique;
+}
+@font-face {
+	font-family: 'UnBPro';
+	src: url('./assets/fonts/UnB_Pro/UnB\ Pro_Bold.otf');
+	font-weight: bold;
+}
+@font-face {
+	font-family: 'UnBPro';
+	src: url('./assets/fonts/UnB_Pro/UnB\ Pro_Bold\ Italic.otf');
+	font-weight: bold;
+	font-style: italic, oblique;
+}
+@font-face {
+	font-family: 'UnBPro';
+	src: url('./assets/fonts/UnB_Pro/UnB\ Pro_Light.otf');
+	font-weight: lighter;
+}
+@font-face {
+	font-family: 'UnBPro';
+	src: url('./assets/fonts/UnB_Pro/UnB\ Pro_Black.otf');
+	font-weight: bolder;
+}
+body {
+	font-family: 'UnBPro', "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
 /* Header Logo Image*/
 .site-branding .custom-logo {
     max-width: 100%;
@@ -213,7 +248,7 @@ a:hover {
 	--tainacan-item-background-color: #fbfbfb !important;
 	--tainacan-item-hover-background-color: white !important;
 	--tainacan-item-heading-hover-background-color: #fcfcfc !important;
-	--tainacan-font-family: "Poppins", "Helvetica Neue", helvetica, arial, sans-serif !important;
+	--tainacan-font-family: 'UnBPro', "Helvetica Neue", helvetica, arial, sans-serif !important;
 	--tainacan-primary: #cde9da !important;
 	--tainacan-secondary: #008940 !important;
 	--tainacan-block-gray3: #adabab !important;
