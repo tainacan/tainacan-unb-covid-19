@@ -11,11 +11,11 @@ Version:        0.1.0
 /* UnB font family */
 @font-face {
 	font-family: 'UnBPro';
-	src: url('./assets/fonts/UnB_Pro/UnB\ Pro_Italic.otf');
+	src: url('./assets/fonts/UnB_Pro/UnB\ Pro_Regular.otf');
 }
 @font-face {
 	font-family: 'UnBPro';
-	src: url('./assets/fonts/UnB_Pro/UnB\ Pro_Regular.otf');
+	src: url('./assets/fonts/UnB_Pro/UnB\ Pro_Italic.otf');
 	font-style: italic, oblique;
 }
 @font-face {
