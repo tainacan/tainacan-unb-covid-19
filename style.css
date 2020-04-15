@@ -55,7 +55,8 @@ Version:        0.1.0
 	src: url('./assets/fonts/UnB_Pro/UnB\ Pro_Black.otf');
 	font-weight: bolder;
 }
-body {
+body,
+.main-navigation a {
 	font-family: 'UnBPro', "Helvetica Neue", helvetica, arial, sans-serif;
 }
 
