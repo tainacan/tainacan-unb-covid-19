@@ -30,6 +30,16 @@ Version:        0.1.0
 }
 @font-face {
 	font-family: 'UnBPro';
+	src: url('./assets/fonts/UnB_Pro/UnB\ Pro_Light.otf');
+	font-weight: 100;
+}
+@font-face {
+	font-family: 'UnBPro';
+	src: url('./assets/fonts/UnB_Pro/UnB\ Pro_Black.otf');
+	font-weight: 900;
+}
+@font-face {
+	font-family: 'UnBPro';
 	src: url('./assets/fonts/UnB_Pro/UnB\ Pro_Bold.otf');
 	font-weight: bold;
 }
@@ -44,16 +54,6 @@ Version:        0.1.0
 	src: url('./assets/fonts/UnB_Pro/UnB\ Pro_Bold\ Italic.otf');
 	font-weight: bold;
 	font-style: oblique;
-}
-@font-face {
-	font-family: 'UnBPro';
-	src: url('./assets/fonts/UnB_Pro/UnB\ Pro_Light.otf');
-	font-weight: lighter;
-}
-@font-face {
-	font-family: 'UnBPro';
-	src: url('./assets/fonts/UnB_Pro/UnB\ Pro_Black.otf');
-	font-weight: bolder;
 }
 body,
 .main-navigation a {
