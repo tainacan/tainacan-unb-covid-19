@@ -502,18 +502,32 @@ textarea {
 	font-size: 118% !important;
 	border-radius: 26px 0px 0px 26px;
 }
-
 .pojo-a11y-toolbar-left .pojo-a11y-toolbar-link.pojo-a11y-toolbar-toggle-link {
 	font-size: 118% !important;
 	border-radius: 0px 26px 26px 0px;
+}
+.pojo-a11y-toolbar-right .pojo-a11y-toolbar-toggle {
+	right: 170px !important;
+	transition: right 0.1s ease-in;
+}
+.pojo-a11y-toolbar-right .pojo-a11y-toolbar-toggle:hover,
+.pojo-a11y-toolbar-right .pojo-a11y-toolbar-toggle:focus,
+.pojo-a11y-toolbar-open  .pojo-a11y-toolbar-toggle {
+	right: 180px !important;
 }
 
 /* V-Libras plugin */
 div[vw].enabled {
 	margin-top: 0;
 	top: 142px;
+	right: -10px;
+	transition: right 0.1s ease-in;
 }
-div[vw].enabled>.active img {
+div[vw].enabled:hover,
+div[vw].enabled:focus {
+	right: 0px;
+}
+div[vw].enabled>.active img:not(.pop-up) {
 	background-color: #004b97;
 	border-radius: 26px 0px 0px 26px;
 }
