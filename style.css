@@ -511,7 +511,7 @@ textarea {
 /* V-Libras plugin */
 div[vw].enabled {
 	margin-top: 0;
-	top: 122px;
+	top: 142px;
 }
 div[vw].enabled>.active img {
 	background-color: #004b97;
@@ -519,7 +519,7 @@ div[vw].enabled>.active img {
 }
 @media screen and (max-width: 700px) {
 	div[vw].enabled {
-		top: 230px;
+		top: 261px;
 	}
 }
 
@@ -737,8 +737,8 @@ div[vw].enabled>.active img {
 }
 
 .barra-topo .menu-unb .nav > li > a {
-    border-top: 1px solid #eee !important;
-    /*color: #eee !important;*/
+    border-top: 1px solid #fff !important;
+    color: #eee !important;
     margin: 0 5px !important;
     padding: 5px 10px !important;
 }
