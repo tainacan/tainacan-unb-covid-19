@@ -229,6 +229,8 @@ a:hover {
 }
 
 /* UGB blocks related */
+
+.ugb-team-member.ugb-team-member--v3.ugb-team-member--design-basic .ugb-team-member__item a,
 .ugb-notification.ugb-notification--v2.ugb-notification--design-basic .ugb-notification__item a,
 .ugb-notification.ugb-notification--v2.ugb-notification--design-large-icon .ugb-notification__item a {
 	color: inherit !important;
@@ -236,9 +238,14 @@ a:hover {
 	border-bottom: 0px solid white !important;
 	transition: border 0.1s ease;
 }
+
+.ugb-team-member.ugb-team-member--v3.ugb-team-member--design-basic .ugb-team-member__item a:hover
 .ugb-notification.ugb-notification--v2.ugb-notification--design-basic .ugb-notification__item a:hover,
 .ugb-notification.ugb-notification--v2.ugb-notification--design-large-icon .ugb-notification__item a:hover {
 	border-bottom: 2px solid white !important;
+}
+.ugb-team-member.ugb-team-member--v3.ugb-team-member--design-basic .ugb-team-member__item {
+	padding: 30px;
 }
 .ugb-card.ugb-card--v2 .ugb-card__content {
 	padding: 24px 28px;
