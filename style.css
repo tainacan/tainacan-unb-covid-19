@@ -192,13 +192,15 @@ a:hover {
 	border-bottom: none;
 }
 .home .site-branding .custom-logo {
-    width: 480px;	
+	width: 450px;	
+	padding-left: 12px;
 }
 .site-branding .wrap {
 	padding: 0.2em 0;
 }
 
 /* Sub menu shadows */
+@media screen and ( min-width: 960px ) {
 .main-navigation ul ul,
 .main-navigation ul ul ul ul,
 .main-navigation ul ul ul ul ul ul,
@@ -227,6 +229,7 @@ a:hover {
     box-shadow: 0 2px 12px -8px black;
     border-radius: 4px;
 }
+}
 
 /* UGB blocks related */
 
@@ -239,7 +242,7 @@ a:hover {
 	transition: border 0.1s ease;
 }
 
-.ugb-team-member.ugb-team-member--v3.ugb-team-member--design-basic .ugb-team-member__item a:hover
+.ugb-team-member.ugb-team-member--v3.ugb-team-member--design-basic .ugb-team-member__item a:hover,
 .ugb-notification.ugb-notification--v2.ugb-notification--design-basic .ugb-notification__item a:hover,
 .ugb-notification.ugb-notification--v2.ugb-notification--design-large-icon .ugb-notification__item a:hover {
 	border-bottom: 2px solid white !important;
@@ -248,7 +251,7 @@ a:hover {
 	padding: 30px;
 }
 .ugb-card.ugb-card--v2 .ugb-card__content {
-	padding: 24px 28px;
+	padding: 20px 28px;
 }
 .ugb-card.ugb-card--v2 .ugb-card__content a:not(.ugb-button) {
 	border-bottom: none;
