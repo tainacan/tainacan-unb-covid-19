@@ -262,6 +262,30 @@ a:hover {
     width: auto;
 }
 
+/* Tainacan Searchbar Block */
+.wp-block-tainacan-search-bar .tainacan-search-container #tainacan-search-bar-block {
+	max-width: calc(100vw - 24px) !important;
+}
+
+.wp-block-tainacan-search-bar .tainacan-search-container #tainacan-search-bar-block input#tainacan-search-bar-block_input {
+	min-width: 480px !important;
+	width: 480px !important;
+	max-width: calc(100vw - 24px) !important;
+}
+
+.wp-block-tainacan-search-bar  #tainacan-search-bar-block input#tainacan-search-bar-block_input:focus {
+	min-width: 100% !important;
+	width: 100% !important;
+	max-width: 100% !important;
+}
+
+@media screen and ( max-width: 768px ) {
+	.wp-block-tainacan-search-bar .tainacan-search-container #tainacan-search-bar-block input#tainacan-search-bar-block_input {
+		min-width: 100% !important;
+		width: 100% !important;
+	}
+}
+
 /* Lists */
 .page .entry-content ul li {
 	padding-bottom: 0.5em;
